@@ -1,0 +1,25 @@
+{
+  "name": "crypto-tracker-api",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "serverless offline start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/david-daly/crypto-tracker-api.git"
+  },
+  "keywords": [],
+  "author": "David Daly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/david-daly/crypto-tracker-api/issues"
+  },
+  "homepage": "https://github.com/david-daly/crypto-tracker-api#readme",
+  "devDependencies": {
+    "serverless": "^1.27.0",
+    "serverless-offline": "^3.20.3"
+  }
+}
