@@ -19,7 +19,12 @@
   },
   "homepage": "https://github.com/david-daly/crypto-tracker-api#readme",
   "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
     "serverless": "^1.27.0",
     "serverless-offline": "^3.20.3"
+  },
+  "dependencies": {
+    "mongoose": "^5.0.17"
   }
 }

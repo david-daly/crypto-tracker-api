@@ -19,3 +19,5 @@ plugins:
 custom:
   serverless-offline:
     port: 5000
+    babelOptions:
+      presets: ["env"]
