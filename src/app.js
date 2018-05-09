@@ -1,13 +1,13 @@
-var express = require('express');
-var session = require('express-session');
-var bodyParser = require('body-parser');
-var router = express.Router();
-var path = require('path');
-var mongoose = require('mongoose');
-var cors = require('cors');
-var logger = require('morgan');
+const express = require('express');
+const session = require('express-session');
+const bodyParser = require('body-parser');
+const router = express.Router();
+const path = require('path');
+const mongoose = require('mongoose');
+const cors = require('cors');
+const logger = require('morgan');
 
-var app = express();
+const app = express();
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
